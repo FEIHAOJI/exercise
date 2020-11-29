@@ -38,9 +38,7 @@ int main()
     cout << "unsigned long: \t" << "所占字节数：" << sizeof(unsigned long);  
     cout << "\t最大值：" << (numeric_limits<unsigned long>::max)();  
     cout << "\t最小值：" << (numeric_limits<unsigned long>::min)() << endl;  
-    cout << "double: \t" << "所占字节数：" << sizeof(double);  
-    cout << "\t最大值：" << (numeric_limits<double>::max)();  
-    cout << "\t最小值：" << (numeric_limits<double>::min)() << endl;  
+  
     cout << "long double: \t" << "所占字节数：" << sizeof(long double);  
     cout << "\t最大值：" << (numeric_limits<long double>::max)();  
     cout << "\t最小值：" << (numeric_limits<long double>::min)() << endl;  
